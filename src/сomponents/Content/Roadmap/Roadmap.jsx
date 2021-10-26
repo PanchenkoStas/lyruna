@@ -1,5 +1,11 @@
 import React from "react";
 import NewsletterForm from "./NewsletterForm";
+import Face1 from "../../../assets/images/face1@2x.png";
+import Face2 from "../../../assets/images/face2@2x.png";
+import Face3 from "../../../assets/images/face3@2x.png";
+import style from "./Roadmap.module.css";
+import TwitterLogo from "../../../assets/images/twitter.svg";
+import Linkedin from "../../../assets/images/linkedin.svg";
 
 function Roadmap() {
     return (
@@ -75,6 +81,43 @@ function Roadmap() {
                         </ul>
                     </div>
 
+                </div>
+            </div>
+
+            <div className="row margin-bottom-sm">
+                <div className="col-sm-12 col-lg-6 col-lg-offset-3 text-align--center">
+                    <span className="pretitle">Team</span>
+                    <h2 className='margin-bottom-sm'>Meet the faces behind Lyruna</h2>
+                    <div className={style.wrapper}>
+
+                        <div className={style.item}>
+                            <div><img width="100px" height="100px" src={Face1}/></div>
+                            <div className={style.details}>
+                                <h4 className={style.name}>Jannis Wachter</h4>
+                                <h5 className={style.position}>Founder</h5>
+                                <div><img alt="twitter" src={TwitterLogo}/><img alt="linkedin" src={Linkedin}/></div>
+                            </div>
+                        </div>
+
+                        <div className={style.item}>
+                            <div><img width="100px" height="100px" src={Face2}/></div>
+                            <div className={style.details}>
+                                <h4 className={style.name}>John Doe</h4>
+                                <h5 className={style.position}>Developer</h5>
+                                <div><img alt="twitter" src={TwitterLogo}/><img alt="linkedin" src={Linkedin}/></div>
+                            </div>
+                        </div>
+
+                        <div className={style.item}>
+                            <div><img width="100px" height="100px" src={Face3}/></div>
+                            <div className={style.details}>
+                                <h4 className={style.name}>Sam Doe</h4>
+                                <h5 className={style.position}>Developer</h5>
+                                <div><img alt="twitter" src={TwitterLogo}/><img alt="linkedin" src={Linkedin}/></div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
