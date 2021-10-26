@@ -1,0 +1,548 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+img.full{
+  max-width: none;
+}
+
+.full-width{
+  width: 100%;
+}
+
+
+.container--margin{
+  margin-bottom: 9.0rem;
+}
+
+.margin-bottom-sm{
+  margin-bottom: 2.0rem;
+}
+
+.pretitle{
+  color: var(--color--purple);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom:1.0rem;
+  display: inline-block;
+}
+
+
+.text-align--left{
+  text-align: left;
+}
+
+.text-align--center{
+  text-align: center;
+}
+
+.text-align--right{
+  text-align: right;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+ul.icons{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+  ul.icons li{
+    float: left;
+    margin: 0 1.0rem 0 0;
+    padding-bottom: 0;
+    display: inline-block;
+  }
+        ul.icons li:first-child{
+          margin-left: 0;
+        }
+
+/* HEADAER */
+header .container,
+header .container .row{
+  height: 100%;
+}
+  header .col-sm-12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+.header-logo{
+    width: auto;
+}
+
+header .button{
+  padding: 0.9rem 1.25rem;
+}
+
+.main-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+  .main-nav li{
+    float: left;
+    margin: 0 1.0rem;
+    font-size: 1.0rem;
+    line-height: 1.0rem;
+    padding-bottom: 0;
+    font-weight: 500;
+  }
+    .main-nav li a{
+      color: #100918;
+    }
+
+.header-right{
+  display: flex;
+  align-items: center;
+}
+  .header-right .icons{
+    margin-right: 0.5rem;
+    display: none;
+  }
+
+/** MASTHEAD **/
+
+#masthead {
+  margin-top: 4.5rem;
+  margin-bottom: 4rem;
+}
+  #masthead .row{
+    height:750px;
+  }
+
+.video-container{
+    margin-left: -52px;
+    position: relative;
+}
+
+  .masthead-image{
+    position: absolute;
+    z-index: 100;
+  }
+  .mobile-app-video{
+    position: absolute;
+    top: 57px;
+    left:232px;
+    z-index: 1;
+  }
+
+.comingsoon{
+  background: rgba(236, 223, 251, 0.5);
+  border-radius: 80px;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight:700;
+  padding: 0.625rem 1rem;
+  display: inline-block;
+  color: var(--color--purple);
+  margin-bottom: 2.0rem;
+}
+
+.nft-cards{
+margin-left:-45px;
+margin-top: 24px;
+}
+
+.masthead-copy{
+  margin-top: 6rem;
+  z-index: 99;
+}
+
+.button-row a{
+  margin-bottom: 1rem;
+}
+
+  .button-row a:first-child{
+    margin-right: 16px;
+  }
+
+.intro{
+  background-image: linear-gradient(90deg, #FD9C9F, #9E5DED);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/** MARKETPLACE **/
+
+#marketplace{
+  background:#F5F9FF;
+  width: 100%;
+  padding: 8rem 0 4rem 0;
+}
+
+  #marketplace ul.checklist{
+    list-style:none;
+    padding:0;
+  }
+    #marketplace ul.checklist li{
+      background:url(../../src/assets/images/check.svg) no-repeat 0px 2px;
+      padding-left: 40px; /* the width of your image + some space */
+      margin: 0;
+    }
+
+.section--marketplace .row{
+  margin-bottom: 5.625rem;
+}
+
+.app-preview{
+  margin-bottom: 2.5rem;
+}
+
+/** PIE CHART **/
+
+#piechart{
+  margin-bottom: 3rem;
+}
+
+#piechart h2{
+  margin-bottom: 1rem;
+}
+
+#piechart h3{
+  background-image: linear-gradient(90deg, #FD9C9F, #9E5DED);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/** PRESALE **/
+
+.card-col{
+  padding:0 1rem;
+  margin:0;
+}
+
+#presale form .email{
+  height: 3.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#presale .button{
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+}
+#presale h3{
+  margin: 2rem 0 1.5rem 0;
+}
+
+
+
+.presale-input{
+  position: relative;
+}
+  .presale-input .right-text{
+    position: absolute;
+    right: 1.5rem;
+    margin:0;
+    font-weight: 600;
+    top: 1.1rem;
+  }
+  .presale-input .max{
+    display:inline-block;
+    margin-right: 0.625rem;
+  }
+  .presale-input .eth .eth-icon{
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 0.5rem;
+  }
+
+span.number{
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.25rem 0;
+}
+
+span.timeframe{
+  font-size: 1.0rem;
+  font-weight: 700;
+  color: #99939F;
+}
+
+.date{
+  padding: 0;
+}
+
+.countdown{
+  margin: 1.5rem 0;
+  padding: 0 1.5rem;
+}
+
+  .presale-form .purple-arrow{
+    margin: 0.75rem 0;
+  }
+
+  .presale-form a.button{
+    margin-top: 1.5rem;
+  }
+
+  progress, progress[role] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-size: auto;
+    height: 0.313rem;
+    width: 100%;
+    background-color:#E5E4E7;
+    margin:0.5rem 0;
+  }
+  .bar::-webkit-progress-value{
+    background: #9E5DED;
+  }
+
+  .row--progress{
+    margin: 1.5rem 0;
+  }
+
+    .progress-bar span{
+      color:#7F7986;
+    }
+
+   .progress-bar .percentage{
+      float:right;
+    }
+
+
+/** ROADMAP **/
+#roadmap,
+#roadmap .container,
+#roadmap .row{
+  overflow:hidden !important;
+}
+.quarter{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: stretch;
+  margin-bottom:2.0rem;
+}
+  .quarter h4{
+    margin-bottom: 1rem;
+  }
+
+  .circle{
+    width: 1.063rem;
+    min-height: 1.063rem;
+    margin: 0.688rem auto;
+    border-spacing: 0.688rem;
+    position:relative;
+    background: var(--color--purple);
+    border-radius: 100%;
+  }
+
+    .circle:after{
+      content: '';
+      position: absolute;
+      top: -0.688rem;
+      left: -0.688rem;
+      right: -0.688rem;
+      bottom: -0.688rem;
+      border: 1px solid #7F7986;
+      border-radius: 100%;
+    }
+
+    .circle--complete{
+      border: 0.625rem solid var(--color--purple);
+    }
+      .circle--complete:after{
+        display: none;
+      }
+
+.line{
+  height: 7.188rem;
+  width: 0.125rem;
+  background: #D9D7DB;
+  margin: 0.5rem auto;
+
+}
+
+
+/** TEAM **/
+
+.user{
+  display:flex;
+  align-items:center;
+  margin-bottom: 2.0rem;
+}
+  .user--left{
+    margin-right: 1.5rem;
+  }
+  .user--right{
+    text-align: left;
+  }
+  .user--position{
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .user--social svg{
+    margin-right:0.5rem;
+  }
+
+/** SUBSCRIBE **/
+
+.subscribe-card{
+  background: #20132F;
+  padding: 2.5rem 2.5rem 3.5rem 2.5rem;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+    .subscribe-card form #email{
+      height: 3.5rem;
+      width: 100%;
+    }
+
+.subscribe-card .col-email{
+  margin-bottom: 1rem;
+}
+
+  .subscribe-card  h2{
+    margin-bottom: 2.0rem;
+  }
+  .subscribe-card .button{
+    border-color: #FFF;
+    background-color: #20132F;
+    color: #FFF;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+    .subscribe-card .button:hover{
+    background-color: #20132F;
+    }
+
+
+/** FOOTER **/
+
+footer{
+  background: #F5F9FF;
+  padding: 5rem 0 2rem 0;
+  width: 100%;
+}
+
+footer .row:first-child{
+  margin-bottom: 2.0rem;
+}
+
+footer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  footer ul li,
+  footer ul li a{
+    font-size:0.938rem;
+    color: #100918 !important;
+  }
+
+  footer ul.icons{
+      margin: 1.25rem 0 0 0;
+  }
+
+  /* **************** */
+
+  @media screen and (max-width: 765px) {
+    h1{
+      font-size: 2.5rem;
+    }
+    .main-nav{
+        display: none;
+    }
+    #masthead{
+      background: none;
+      margin-top: 4.0rem;
+      margin-bottom: 7.0rem;
+    }
+    .masthead-copy{
+      margin-top: 0;
+    }
+        #masthead .row{
+          height: 950px;
+        }
+
+    .video-container{
+        height: 320px;
+        margin-left: -40px;
+        margin-top: 20px;
+    }
+      .video-container .masthead-image{
+        max-width: 400px;
+      }
+      .video-container .mobile-app-video{
+        width: 142px;
+        top: 26px;
+        left: 121px;
+        height: 307px;
+      }
+  }
+
+  @media screen and (min-width: 768px) {
+    body{
+      background:url('images/masthead-gradient@2x.jpg') no-repeat top right / 570px 610px, url('images/team-blur@2x.jpg') no-repeat bottom 10% left / 359px 912px;
+      background-blend-mode: multiply;
+      z-index: 99;
+    }
+
+    #marketplace{
+      background:#F5F9FF url('images/marketplace-bg@2x.png') no-repeat;
+      background-size: 457px 734px;
+      background-position-y:65%;
+      background-position-x:right;
+      background-blend-mode: multiply;
+    }
+
+    span.timeframe{
+      font-size: 1.125rem;
+    }
+
+    span.number{
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+    }
+
+    .subscribe-card .col-email{
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .subscribe-card .col-email{
+      padding-right: 0;
+    }
+    #presale .col-email{
+      padding-right: 0;
+    }
+  }
+
+  @media screen and (min-width: 960px) {
+    .header-right .icons{
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 1190px) {
+    .header-logo{
+      width: 144px;
+    }
+  }

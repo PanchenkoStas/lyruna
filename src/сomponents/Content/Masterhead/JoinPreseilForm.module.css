@@ -1,0 +1,77 @@
+#wallet {
+    width: 660px;
+    border-radius: 24px;
+    border: 1px solid #c2c2c2;
+    font-family: Inter;
+    padding: 56px;
+    margin-top: 48px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.timer {
+    justify-content: space-between;
+    width: 500px;
+    margin: 24px 0 48px 0;
+}
+
+.numberText {
+    font-size: 18px;
+    color: #99939F;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 56px;
+}
+
+.inputContainer {
+    margin-top: 30px;
+    align-self: stretch;
+}
+
+.inputContainer > input {
+    width: 100%;
+}
+
+.amount_chart_main {
+    height: 5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #E5E4E7;
+    position: relative;
+    align-self: center;
+    margin: 12px auto;
+}
+
+.chart_progress {
+    position: absolute;
+    height: 5px;
+    width: 210px;
+    border-radius: 5px;
+    background-color: #9E5DED;
+    top: 0;
+    left: 0;
+}
+
+div + a {
+    margin-top: 24px;
+}
+
+.chart_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart_title > div:last-child, .chart_progress_value {
+    opacity: 0.5;
+}
+
+.chart_progress_value {
+    align-self: flex-end;
+}
